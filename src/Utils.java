@@ -10,6 +10,23 @@ public class Utils {
 
     Scanner sc = new Scanner(System.in);
 
+
+    static void printMenu(){
+        System.out.println("Wybierz figure: ");
+        System.out.println(Utils.TRIANGLE + " - TROJKAT");
+        System.out.println(Utils.SQUARE + " - KWADRAT");
+        System.out.println(Utils.CIRCLE+ " - KOLO");
+        System.out.println(Utils.THREE_DIM + " - GRANIASTOSLUP");
+        System.out.println(Utils.EXIT + " - Wyjscie");
+    }
+
+    static void threeDimMenu(){
+        System.out.println("\nPodaj podstawe graniastoslupa: ");
+        System.out.println(Utils.TRIANGLE + " - TROJKAT");
+        System.out.println(Utils.SQUARE + " - KWADRAT");
+        System.out.println(Utils.CIRCLE+ " - KOLO");
+    }
+
     void createAndPrintTriangle(){
         double a,b,c;
         System.out.println("Podaj dlugosci bokow trojkata: ");
