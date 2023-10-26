@@ -9,6 +9,7 @@ public class Main {
         int userInput;
         Utils.printMenu();
         while((userInput = scanner.nextInt()) != Utils.EXIT) {
+            //Utils.printMenu();
             switch (userInput) {
                 case Utils.TRIANGLE -> {
                     util.createAndPrintTriangle();

@@ -33,21 +33,21 @@ public class Utils {
         a = sc.nextDouble();
         b = sc.nextDouble();
         c = sc.nextDouble();
-        Printing triangle = new Triangle(a,b,c);
+        Triangle triangle = new Triangle(a,b,c);
         triangle.print();
     }
 
     void createAndPrintSquare(){
         System.out.println("Podaj dlugosc boku kwadratu: ");
         double a = sc.nextDouble();
-        Printing square = new Square(a);
+        Square square = new Square(a);
         square.print();
     }
 
     void createAndPrintCircle(){
         System.out.println("Podal dlugosc promienia: ");
         double r = sc.nextDouble();
-        Printing circle = new Circle(r);
+        Circle circle = new Circle(r);
         circle.print();
     }
 
